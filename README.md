@@ -1,6 +1,14 @@
 # 384-well-data-format
 Reformats data for 384-well-plate screen to be better suited for plotting
 
+## Repository Contents:
+1. This README
+2. A copy of the MIT License
+3. requirements.txt, for quick install
+4. simplified-melt-data-test.xlsx, a sample input file to see formatting of input data
+5. simplified-melt-data-test-out.xlsx, a sample output file to see what formatting of output data will look like
+6. pivot_wellplate_data.py, the python script that will turn the input into the output
+
 ## Setup tl;dr:
 1. Download the repository
 2. Make a new virtual environment
