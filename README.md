@@ -31,7 +31,7 @@ At this point you should be set!
 To test your setup, you can use the sample file and the run instructions (move sample file to the same folder as the python script and make a new output folder)
 
 ## To run:
-python3 pivot_wellplate_data.py {input file name} {output file name}
+python3 pivot_wellplate_data.py {input file name} {raw output file name} {processed output file name}
 
 You will see file read and file written messages print to the command line as the script runs
 
@@ -44,6 +44,9 @@ Well Position, Temperature, Fluorescence
 (modify the script if you are repurposing for other data, this was written for thermal stability)
 Well Position should be in letter number format (e.g. A1, B2, etc)
 
-Output file should be an empty excel file, saved with a name
+## Processing details
+Designed for thermal shift, normalizes each well to its max and min reading (reading-min)/(max-min)
+
+Output files should be empty excel files, saved with names
 
 Put both files in the same folder as the python script and you're good to run!
